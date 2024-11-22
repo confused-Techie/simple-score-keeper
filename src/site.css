@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.html {
+  background: #666;
+}
+
+/* Container for all elements */
+.container {
+  background: #555;
+  color: #fff;
+
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr 1fr 1fr;
+}
+
+.team_1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  background: #fff;
+  border: 1rem;
+
+  text-align: center;
+
+  border-left: solid 1vw #999;
+}
+
+.team_2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+  background: #fff;
+
+  text-align: center;
+
+  border-left: solid 1vw #999;
+}
+
+.time {
+  grid-column-start: 5;
+  grid-column-end: 6;
+
+  background: #fff;
+
+  margin-left: 1rem;
+  text-align: center;
+
+  border-left: solid 1vw #999;
+}
+
+.text {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #333;
+}

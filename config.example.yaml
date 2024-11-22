@@ -1,7 +1,6 @@
-home_team_name: "Team 1"
-home_team_score: 2
-away_team_name: "Team 2"
-away_team_score: 0
+team_1: "team"
+team_2: "team"
+date: ""
 
 wss_port: 8081
 port: 8080

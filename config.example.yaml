@@ -1,0 +1,8 @@
+home_team_name: "Team 1"
+home_team_score: 2
+away_team_name: "Team 2"
+away_team_score: 0
+
+wss_port: 8081
+port: 8080
+wss_refresh: 100

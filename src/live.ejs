@@ -10,16 +10,17 @@
 
 
     <div class="container">
-      <div class="team_1">
-        <span class="text"><%= team_1 %></span>
+      <div class="team_1" style="border-left-color=<%= team_1_color %>">
+        <span class="text" id="team_1_score_span"><%= team_1 %></span>
       </div>
-      <div class="team_2">
-        <span class="text"><%= team_2 %></span>
+      <div class="team_2" style="border-left-color=<%= team_2_color %>">
+        <span class="text" id="team_2_score_span"><%= team_2 %></span>
       </div>
       <div class="time">
         <span class="text"><%= date %></span>
       </div>
     </div>
 
+    <script src="./site.js"></script>
   </body>
 </html>

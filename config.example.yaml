@@ -1,6 +1,8 @@
 team_1: "team"
 team_2: "team"
 date: ""
+team_1_color: "#999"
+team_2_color: "#999"
 
 wss_port: 8081
 port: 8080

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Simple Score Keeper Updater</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+
+    <a href="/live"><h1>Go to Live Score View</h1></a>
+
+    <div class="updater">
+      <button class="team_up" onclick="updateScore();">Team Score +</button>
+      <button class="team_down" onclick="updateScore();">Team Score -</button>
+      <label for="team_1_name">Team 1 Name</label>
+      <input onchange="updateScore();" type="text" id="team_1_name" />
+    </div>
+
+    <script src="./site.js"></script>
+  </body>
+</html>
